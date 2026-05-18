@@ -42,7 +42,7 @@ logger = logging.getLogger(__name__)
 # ================= CONFIG =================
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "7966505221:AAHEUj82be8yTNnmfKhbpTz9CqiSR75SAx4")
 SUPER_ADMIN_ID = int(os.environ.get("SUPER_ADMIN_ID", "8165064673"))
-SOURCE_CHANNEL_ID = int(os.environ.get("SOURCE_CHANNEL_ID", "-1002815082886"))
+SOURCE_CHANNEL_ID = int(os.environ.get("SOURCE_CHANNEL_ID", "-1003997974358"))
 
 # DB ni persistent joyda saqlash (Render disk yoki lokal)
 DB_PATH = os.environ.get("DB_PATH", "/data/bot_database.db")
